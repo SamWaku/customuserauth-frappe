@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customuserauth *.css
+recursive-include customuserauth *.csv
+recursive-include customuserauth *.html
+recursive-include customuserauth *.ico
+recursive-include customuserauth *.js
+recursive-include customuserauth *.json
+recursive-include customuserauth *.md
+recursive-include customuserauth *.png
+recursive-include customuserauth *.py
+recursive-include customuserauth *.svg
+recursive-include customuserauth *.txt
+recursive-exclude customuserauth *.pyc
